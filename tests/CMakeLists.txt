@@ -10,6 +10,7 @@ FetchContent_MakeAvailable(Catch2)
 
 add_executable(market_tests
     types_tests.cpp
+    order_tests.cpp
 )
 
 target_include_directories(market_tests

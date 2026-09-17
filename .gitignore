@@ -1,6 +1,26 @@
 # Prerequisites
 *.d
 
+# Visual Studio local files
+.vs/
+
+# CMake build output
+/build/
+/out/
+cmake-build-*/
+
+# User-specific CMake configuration
+CMakeUserPresets.json
+
+# Compiled output
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.ipch
+
 # Compiled Object files
 *.slo
 *.lo
